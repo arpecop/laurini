@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-
+import logo from '../images/profile.png'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">dsdsd1</div>
+    <div className="logo">
+      <img src={logo} alt="Logo" />
+    </div>
     <div className="content">
       <div className="inner">
         <h1>Melisa Laurini</h1>
