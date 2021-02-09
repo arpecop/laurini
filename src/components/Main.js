@@ -33,25 +33,30 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            При нас, вие може да откриете, приятни аромати и атмосфера, много
+            положителна енергия.Нашата работа се усъвършенства всеки ден с
+            най-новите методи и технологии за успешно справяне с проблеми по
+            кожата.Новата визия е винаги на мода.Тя ни дава онова възвишено
+            добро в живота Красотата - чувството че си най-добрия и красив Човек
+            на Земята.Комбинацията от специалисти, хубава музика, топли ръце и
+            сърце могат освен да те разкрасят и одухотворят.Извън естетичната си
+            насоченост силата на светлинната терапия може да оздрави и подобри
+            процесите на възстановяване на организма Ви в дадената област, след
+            хирургическа намеса, след спортна травма, след стрес и преумора.Най
+            вече ние сме там ,където искате да бъдем - до вас през целия процес
+            на разкрасяване и възстановяване на вашите кожа, нокти и коса.Всяка
+            душевност носи своята красота.Масажът на глава, лице и тяло може да
+            даде мира и спокойствието освен своето лечебно действие върху
+            физическото ни състояние в момента.Козметиката за лице и тяло е
+            безценен подарък за кожата и сетивата ни.Ние държим тя да бъде най
+            близка до вашата кожа и да влияе профилактично, възстановяващо и
+            разкрасяващо за вашите кожни проблеми, който можем да отстраним по
+            най - приятния и качествен начин.Консултацията с нас е безценна
+            информация, за да можем да достигнем по-близо до вас и да ви
+            препоръчаме най-ефикасното и действащо средство за решаване на
+            вашите проблеми.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+
           {close}
         </article>
 
