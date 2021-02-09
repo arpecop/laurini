@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Интро</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -67,7 +67,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Работа</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -105,7 +105,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">За Мен</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -128,10 +128,10 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Контакт</h2>
           <form action="https://formspree.io/f/xpzonnqd" method="POST">
             <div className="field half first">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Име</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
@@ -139,7 +139,7 @@ class Main extends React.Component {
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Съобщение</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
