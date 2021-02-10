@@ -69,7 +69,7 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
     img {
-      width: 88px;
+      width: 86px;
       border-radius: 50%;
     }
   }
@@ -219,7 +219,10 @@
       width: 4.75rem;
       height: 4.75rem;
       line-height: 4.75rem;
-
+      img {
+        width: 68px;
+        border-radius: 50%;
+      }
       .icon {
         &:before {
           font-size: 1.75rem;
