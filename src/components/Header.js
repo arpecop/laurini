@@ -32,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            За Мен
+            За Нас
           </button>
         </li>
         <li>
