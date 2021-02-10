@@ -23,7 +23,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Работа
+            {props.lang ? 'Work' : 'Работа'}
           </button>
         </li>
         <li>
@@ -32,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            За Нас
+            {props.lang ? 'About Us' : 'За Нас'}
           </button>
         </li>
         <li>
@@ -41,7 +41,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Контакт
+            {props.lang ? 'Contact' : 'Контакт'}
           </button>
         </li>
       </ul>
