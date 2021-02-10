@@ -15,13 +15,7 @@ const Header = props => (
     <nav>
       <ul>
         <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('intro')
-            }}
-          >
-            Интро
-          </button>
+          <a href="https://blog.mlaurini.com/">Blog</a>
         </li>
         <li>
           <button
