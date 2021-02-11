@@ -27,12 +27,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Работа</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
           {!this.props.lang ? (
             <>
+              <h2 className="major">Работа</h2>
               <p>
                 При нас, вие може да откриете, приятни аромати и атмосфера,
                 много положителна енергия.Нашата работа се усъвършенства всеки
@@ -64,6 +64,7 @@ class Main extends React.Component {
             </>
           ) : (
             <div>
+              <h2 className="major">Work</h2>
               With us, you can find pleasant aromas and atmosphere, a lot of
               positive energy. Our work is improved every day with the latest
               methods and technologies for successful treatment of skin
@@ -99,63 +100,70 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">За Нас</h2>
-          <p></p>
           {!this.props.lang ? (
-            <ul>
-              <li>
-                Melisa Laurini е италианска марка, която създава красота всеки
-                ден. Най-силните и ефективни продукти за лице и тяло на пазара.
-              </li>
-              <li>
-                Всеки ден правим проучвания за да създадем революция в
-                надпреварата с времето.
-              </li>
-              <li>
-                В нашата утвърдена работа и дългогодишен опит ние създадохме
-                специален метод на безупречна репутация.
-              </li>
-              <li>
-                Ние създаваме красота всеки ден която е комбинация от нашият
-                опит и ръце които извайват овала на лицето.
-              </li>
-              <li>
-                Нашите клиенти всеки ден говорят за чувството да бъдеш
-                единствен, индивидуален и по своему съвършен.
-              </li>
-              <li>
-                Представата ни за красота се управлява от естетиката и
-                индивидуалността на всеки наш доволен клиент. Ние галим сетивата
-                чрез натуралните етерични масла и масажна техника Melisa
-                Laurini.
-              </li>
-              <li>Ние имаме индивидуален подход към кожата на всеки клиент</li>
-              <li>
-                Изграждаме програмата ви и следим резултатите за по голяма
-                ефективност.
-              </li>
-            </ul>
+            <>
+              <h2 className="major">За Нас</h2>
+              <ul>
+                <li>
+                  Melisa Laurini е италианска марка, която създава красота всеки
+                  ден. Най-силните и ефективни продукти за лице и тяло на
+                  пазара.
+                </li>
+                <li>
+                  Всеки ден правим проучвания за да създадем революция в
+                  надпреварата с времето.
+                </li>
+                <li>
+                  В нашата утвърдена работа и дългогодишен опит ние създадохме
+                  специален метод на безупречна репутация.
+                </li>
+                <li>
+                  Ние създаваме красота всеки ден която е комбинация от нашият
+                  опит и ръце които извайват овала на лицето.
+                </li>
+                <li>
+                  Нашите клиенти всеки ден говорят за чувството да бъдеш
+                  единствен, индивидуален и по своему съвършен.
+                </li>
+                <li>
+                  Представата ни за красота се управлява от естетиката и
+                  индивидуалността на всеки наш доволен клиент. Ние галим
+                  сетивата чрез натуралните етерични масла и масажна техника
+                  Melisa Laurini.
+                </li>
+                <li>
+                  Ние имаме индивидуален подход към кожата на всеки клиент.
+                </li>
+                <li>
+                  Изграждаме програмата ви и следим резултатите за по голяма
+                  ефективност.
+                </li>
+              </ul>
+            </>
           ) : (
-            <ul>
-              <li>
-                Melisa Laurini is an Italian brand that creates beauty every
-                day. The most powerful and effective face and body products on
-                the market.
-              </li>
-              Every day we do research to create a revolution and the race
-              against time. Our established work and many years of experience.
-              We have created a special method of impeccable reputation. In
-              combination with our experience and hands that sculpt the oval
-              face, we create beauty every day. Our clients talk every day about
-              the feeling of being unique, individual and perfect in your own
-              way. Our idea of ​​beauty is governed by the aesthetics and
-              individuality of each of our satisfied customers. We caress the
-              senses through the natural essential oils and massage technique
-              Melisa Laurini. We are excited about the condition of your skin
-              every day, and it is influenced by our daily lives. Melisa Laurini
-              Builds your program every day and monitors results for greater
-              efficiency.
-            </ul>
+            <>
+              <h2 className="major">About Us</h2>
+              <ul>
+                <li>
+                  Melisa Laurini is an Italian brand that creates beauty every
+                  day. The most powerful and effective face and body products on
+                  the market.
+                </li>
+                Every day we do research to create a revolution and the race
+                against time. Our established work and many years of experience.
+                We have created a special method of impeccable reputation. In
+                combination with our experience and hands that sculpt the oval
+                face, we create beauty every day. Our clients talk every day
+                about the feeling of being unique, individual and perfect in
+                your own way. Our idea of ​​beauty is governed by the aesthetics
+                and individuality of each of our satisfied customers. We caress
+                the senses through the natural essential oils and massage
+                technique Melisa Laurini. We are excited about the condition of
+                your skin every day, and it is influenced by our daily lives.
+                Melisa Laurini Builds your program every day and monitors
+                results for greater efficiency.
+              </ul>
+            </>
           )}
 
           {close}
@@ -168,29 +176,68 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Контакт</h2>
-          <form action="https://formspree.io/f/xpzonnqd" method="POST">
-            <div className="field half first">
-              <label htmlFor="name">Име</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Съобщение</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          {!this.props.lang ? (
+            <>
+              <h2 className="major">Контакт</h2>
+              <form action="https://formspree.io/f/xpzonnqd" method="POST">
+                <div className="field half first">
+                  <label htmlFor="name">Име</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div className="field half">
+                  <label htmlFor="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div className="field">
+                  <label htmlFor="message">Съобщение</label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+                <ul className="actions">
+                  <li>
+                    <input
+                      type="submit"
+                      value="Изпрати съобщение"
+                      className="special"
+                    />
+                  </li>
+                  <li>
+                    <input type="reset" value="Нулирай" />
+                  </li>
+                </ul>
+              </form>
+            </>
+          ) : (
+            <>
+              <h2 className="major">Contact</h2>
+              <form action="https://formspree.io/f/xpzonnqd" method="POST">
+                <div className="field half first">
+                  <label htmlFor="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div className="field half">
+                  <label htmlFor="email">Email</label>
+                  <input type="text" name="email" id="email" />
+                </div>
+                <div className="field">
+                  <label htmlFor="message">Message</label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+                <ul className="actions">
+                  <li>
+                    <input
+                      type="submit"
+                      value="Send Message"
+                      className="special"
+                    />
+                  </li>
+                  <li>
+                    <input type="reset" value="Reset" />
+                  </li>
+                </ul>
+              </form>
+            </>
+          )}
+
           <ul className="icons">
             <li>
               <a
