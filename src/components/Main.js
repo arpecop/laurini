@@ -145,23 +145,39 @@ class Main extends React.Component {
               <h2 className="major">About Us</h2>
               <ul>
                 <li>
-                  Melisa Laurini is an Italian brand that creates beauty every
-                  day. The most powerful and effective face and body products on
-                  the market.
+                  Melisa Laurini is an Italian brand that creates beauty for
+                  everyone day. The strongest and most effective products for
+                  face and body market.
                 </li>
-                Every day we do research to create a revolution and the race
-                against time. Our established work and many years of experience.
-                We have created a special method of impeccable reputation. In
-                combination with our experience and hands that sculpt the oval
-                face, we create beauty every day. Our clients talk every day
-                about the feeling of being unique, individual and perfect in
-                your own way. Our idea of ​​beauty is governed by the aesthetics
-                and individuality of each of our satisfied customers. We caress
-                the senses through the natural essential oils and massage
-                technique Melisa Laurini. We are excited about the condition of
-                your skin every day, and it is influenced by our daily lives.
-                Melisa Laurini Builds your program every day and monitors
-                results for greater efficiency.
+                <li>
+                  Every day we do research to create a revolution in the race
+                  against time.
+                </li>
+                <li>
+                  In our established work and many years of experience we have
+                  created special method of impeccable reputation.
+                </li>
+                <li>
+                  We create beauty every day which is a combination of ours
+                  experience and hands that sculpt the oval of the face.
+                </li>
+                <li>
+                  Our clients talk every day about the feeling of being unique,
+                  individual and perfect in its own way.
+                </li>
+                <li>
+                  Our idea of ​​beauty is governed by its aesthetics the
+                  individuality of each of our satisfied customers. We caress
+                  the senses through natural essential oils and massage
+                  techniques Melisa Laurini.
+                </li>
+                <li>
+                  We have an individual approach to the skin of each client.
+                </li>
+                <li>
+                  We build your program and monitor the results for more
+                  efficiency.
+                </li>
               </ul>
             </>
           )}
