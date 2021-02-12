@@ -21,6 +21,48 @@ class Main extends React.Component {
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
         <article
+          id="services"
+          className={`${this.props.article === 'services' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Услуги</h2>
+          <ul>
+            <li>
+              Апаратен пълен маникюр 1 час · 30 лв.Пълен маникюр с ел.пила и
+              сваляне на гел лак
+            </li>
+            <li>Remove Gel Color 15 минути · 5 $</li>
+            <li>Shellac Gel Color 45 минути · 20 лв.Shellac Gel Color</li>
+            <li>
+              Кола маска с ленти 15 минути · Попитайте за цената Частично ръце
+            </li>
+
+            <li>Кола маска, с ленти 15 минути · 10 лв.Цели ръце</li>
+            <li>Кола маска с лента 30 минути · 15 лв.Частично - крака</li>
+            <li>Кола маска с лента 30 минути · 27 лв.Цели крака</li>
+            <li>
+              Оформяне на вежди 15 минути · Попитайте за цената почистване и
+              оформяне на вежди
+            </li>
+            <li>
+              Hot Wax, без болка кола маска 30 минути · 12 лв.Brazil Hot Wax
+              Кола маска интимна прическа
+            </li>
+            <li>Гореща кола маска, без болка 15 минути · 7 лв.Bikini Zone</li>
+            <li>
+              Гореща кола маска Hot Wax, безболезнена 30 минути · 15 лв.Цял
+              интим
+            </li>
+            <li>Безболезнена кола маска 15 минути · 6 лв.Подмишници</li>
+            <li>
+              Кола маска, безболезнена без лента 15 минути · 6 лв.Горна устна и
+              брадичка
+            </li>
+          </ul>
+        </article>
+        <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''

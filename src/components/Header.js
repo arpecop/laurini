@@ -38,6 +38,15 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
+              props.onOpenArticle('services')
+            }}
+          >
+            {props.lang ? 'Services' : 'Услуги'}
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
