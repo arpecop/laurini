@@ -39,16 +39,6 @@ class Main extends React.Component {
           <h2 className="major">Услуги</h2>
           <Services></Services>
         </article>
-        <article
-          id="faq"
-          className={`${this.props.article === 'services' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">FAQ</h2>
-          <Services></Services>
-        </article>
 
         <article
           id="work"
@@ -94,7 +84,7 @@ class Main extends React.Component {
                 действащо средство за решаване на вашите проблеми.
               </p>
               <h2 className="major">Често задавани въпроси</h2>
-              <FAQ></FAQ>
+              <FAQ />
             </>
           ) : (
             <div>
