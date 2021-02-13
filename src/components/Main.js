@@ -3,14 +3,6 @@ import React from 'react'
 import Services from './Services'
 import FAQ from './faq'
 import pic02 from '../images/pic02.jpg'
-const services = [
-  {
-    id: 0,
-    name: 'Апаратен пълен маникюр 1 час',
-    timespan: '60',
-    price: '',
-  },
-]
 
 class Main extends React.Component {
   render() {

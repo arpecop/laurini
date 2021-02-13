@@ -101,24 +101,27 @@ class IndexPage extends React.Component {
               onOpenArticle={this.handleOpenArticle}
               timeout={this.state.timeout}
             />
-
             <div className="switchlang">
-              <a
-                href="#"
+              <img
+                src={bg}
                 onClick={() => {
                   this.setState({ lang: false })
                 }}
-              >
-                <img src={bg} />
-              </a>
-              <a
-                href="#"
+                onKeyDown={() => {
+                  this.setState({ lang: false })
+                }}
+                alt=""
+              />
+              <img
+                src={en}
                 onClick={() => {
                   this.setState({ lang: true })
                 }}
-              >
-                <img src={en} />
-              </a>
+                onKeyDown={() => {
+                  this.setState({ lang: true })
+                }}
+                alt=""
+              />
             </div>
             <Main
               lang={this.state.lang}
