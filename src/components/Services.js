@@ -65,13 +65,13 @@ export default class Services extends React.Component {
       },
       {
         id: 7,
-        name: 'Кола маска (ленти) подмишници',
-        timespan: 15,
+        name: 'Кола маска  топла подмишници',
+        timespan: 8,
         price: 8,
       },
       {
         id: 8,
-        name: 'Кола маска топла цял интим',
+        name: 'Кола маска топла холивуд ',
         timespan: 25,
         price: 20,
       },
