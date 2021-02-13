@@ -157,7 +157,7 @@ export default class Services extends React.Component {
       },
     ]
     return (
-      <form action="https://formspree.io/f/rudix.lab@gmail.com" method="POST">
+      <form action="https://formspree.io/f/xpzonnqd" method="POST">
         <div className="field">
           <label htmlFor="name">Име:</label>
           <input type="text" name="name" id="name" />
