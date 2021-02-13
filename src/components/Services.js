@@ -185,10 +185,14 @@ export default class Services extends React.Component {
               </tr>
             )
           })}
+          <tr>
+            <DatePicker onChange={this.onChange} value={this.state.value} />
+          </tr>
         </table>
 
-        <DatePicker onChange={this.onChange} value={this.state.value} />
-        <input type="submit" value="Send" />
+        <p>
+          <input type="submit" value="Поръчай" />
+        </p>
       </form>
     )
   }
