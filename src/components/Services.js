@@ -13,7 +13,7 @@ export default class Services extends React.Component {
   render() {
     const arr = ['a', 'b', 'c', 'd']
     return (
-      <form action="https://formspree.io/f/rudix.lab@gmail.com" method="POST">
+      <form action="https://formspree.io/f/xpzonnqd" method="POST">
         {arr.map((value, index) => {
           return (
             <div key={index}>
