@@ -69,7 +69,8 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
     img {
-      width: 86px;
+      width: 5.5rem;
+      height: 5.5rem;
       border-radius: 50%;
     }
   }
@@ -221,7 +222,8 @@
       height: 4.75rem;
       line-height: 4.75rem;
       img {
-        width: 68px;
+        width: 4.75rem;
+        height: 4.75rem;
         border-radius: 50%;
       }
       .icon {
